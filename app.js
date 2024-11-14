@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
   res.send('Servidor Node.js está funcionando!');
 });
 
-// Iniciar o servidor
+// Iniciar o servidor //
 app.listen(port, () => {
   console.log(`Servidor rodando na porta ${port}`);
 });
